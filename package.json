@@ -1,0 +1,17 @@
+{
+  "name": "cypress-e2e-demo",
+  "version": "1.0.0",
+  "description": "Frontend cypress e2e testing",
+  "devDependencies": {
+    "cypress": "^13.3.1",
+    "cypress-localstorage-commands": "^2.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodirnabiev/cypress-e2e-demo"
+  },
+  "author": "Nodir Nabiev",
+  "dependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
