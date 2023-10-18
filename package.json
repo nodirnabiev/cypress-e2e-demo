@@ -2,6 +2,12 @@
   "name": "cypress-e2e-demo",
   "version": "1.0.0",
   "description": "Frontend cypress e2e testing",
+  "scripts": {
+    "test": "cypress open",
+    "test:run": "cypress run",
+    "test:dev": "npm run test",
+    "test:ci": "node scripts/run-tests"
+  },
   "devDependencies": {
     "cypress": "^13.3.1",
     "cypress-localstorage-commands": "^2.2.4"
